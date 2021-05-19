@@ -1,0 +1,427 @@
+@media screen and (max-width:896px){
+  .header-top li {
+    display: none;
+  }
+  .header-top {
+    display: inline-block;
+    height: 67.5px;
+    width: 768px;
+  }
+  .top-logo {
+    padding: 18px;
+  }
+  .title {
+    margin-top: 67px;
+    height: 100px;
+  }
+  .img-title p {
+    font-size: 21px;
+    text-align: center;
+  }
+  .main-header {
+    display: none;
+  }
+  .main-title {
+    padding: 60px 0;
+  }
+  .nayami {
+    padding: 40px 5px;
+    position: relative;
+  }
+  .nayami li {
+    margin-right: 0;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .nayami ul {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+  }
+  .icon-img1 {
+    position: absolute;
+    top: 110px;
+    right: 530px;
+  }
+  .icon-img2 {
+    position: absolute;
+    top: 175px;
+    right: 530px;
+  }
+  .app h2 {
+    padding: 30px 0;
+    font-size: 28px;
+  }
+  .app h3 {
+    font-size: 28px;
+    margin: 40px 0 20px;
+  }
+  .graf {
+    flex-wrap: wrap;
+    padding: 0 30px 40px;
+  }
+  .graf img {
+    width: 100%;
+  }
+  .graf p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .function {
+    background-color: #f4f4f4;
+    padding: 40px 50px 40px;
+  }
+  .function h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .function-li {
+    flex-wrap: wrap;
+    display: inline-block;
+    text-align: center;
+  }
+  .function1 p {
+    text-align: start;
+    font-size: 18px;
+    height: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .contact {
+    background-color: #d2ebed;
+    padding: 40px 0;
+  }
+  .contact a {
+    font-size: 20px;
+    padding: 10px 230px;
+  }
+  .contact1 span {
+    font-size: 30px;
+  }
+  .up {
+    padding-bottom: 40px;
+  }
+  .up h2 {
+    padding: 40px 0;
+    font-size: 28px;
+  }
+  .up h3 {
+    font-size: 28px;
+    margin: 50px 0 30px;
+  }
+  .up-img img {
+    width: 100%;
+  }
+  .up-img-li {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .up-img p {
+    font-size: 18px;
+    width: 470px;
+  }
+  .proposal {
+    padding: 40px 0;
+  }
+  .proposal h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .proposal ul {
+    width: 300px;
+  }
+  .proposal li {
+    margin-bottom: 13px;
+    font-size: 23px;
+  }
+  .icon-img3 {
+    position: absolute;
+    top: 160px;
+    left: 200px;
+  }
+  .icon-img4 {
+    position: absolute;
+    top: 215px;
+    left: 200px;
+  }
+  .icon-img5 {
+    position: absolute;
+    top: 290px;
+    left: 200px;
+  }
+  .footer-top {
+    display: inline-block;
+    width: 100%;
+    padding: 33px 0;
+  }
+  .footer-left {
+    margin-right: 0;
+    text-align: center;
+  }
+  .address {
+    padding-bottom: 0;
+  }
+  .footer-right {
+    display: none;
+  }
+  .footer-left a {
+    display: none;
+  }
+  .sns-img {
+    display: none;
+  }
+  .footer-bottom {
+    margin: 40px auto 0;
+    width: 100%;
+    padding-bottom: 40px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .pagetop {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width:480px){
+  /* ハンバーガーメニューのCSS */
+  .hamburger-menu {
+    display: inline;
+  }
+  .menu-btn {
+    position: fixed;/* 固定 */
+    top: 0px; /* 上からの距離 */
+    right: 0px; /* 右からの距離 */
+    display: flex; 
+    height: 43.5px; /* ハンバーガーメニューの背景の高さ */
+    width: 43.5px; /* ハンバーガーメニューの背景の幅 */
+    justify-content: center; /* 三本線の左右の中央寄せ */
+    align-items: center; /* 三本線の上下の中央寄せ */
+    z-index: 90; /* 被った時に上に表示されるように */
+    background-color: #464646; /* ハンバーガーメニューの背景色 */
+  }
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px; /* 三本線の上下幅 */
+    width: 25px; /* 三本線の左右幅 */
+    border-radius: 3px; /* 三本線の丸み */
+    background-color: #ffffff; /* 三本線の色 */
+    position: absolute;
+  }
+  .menu-btn span:before {
+    bottom: 8px; /* 真ん中の線を起点とした時の一番上の線の距離 */
+  }
+  .menu-btn span:after {
+    top: 8px;  /* 真ん中の線を起点とした時の一番下の線の距離 */
+  }
+  #menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+  }
+  #menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);/* 押したら回転する */
+  }
+  #menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);/* 押したら回転する */
+  }
+
+  #menu-btn-check {
+    display: none;
+  }
+
+/* ここから、ハンバーガーメニューを押したら表示されるメニューのCSS */
+
+  .menu-content {
+    width: 100%; /* メニューの横幅 */
+    height: 100%; /* メニューの縦幅 */
+    position: fixed;
+    top: 0;
+    left: 100%;/* leftの値を変更してメニューを画面外へ */
+    z-index: 80;
+    background-color: #464646;/* メニューの背景色 */
+    transition: all 0.5s;/* メニューが現れる秒数 */
+  }
+  .menu-content ul {
+    padding: 70px 10px 0; /* メニュー全体の余白 */
+  }
+  .menu-content ul li {
+    border-bottom: solid 1px #ffffff; /*メニューの下線*/
+    list-style: none;
+  }
+  .menu-content ul li a { /* メニューの文字のCSS */
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+  }
+  .menu-content ul li a::before { /* メニューの矢印のCSS */
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+  }
+  #menu-btn-check:checked ~ .menu-content {
+    left: 0;/*ハンバーガーメニューを押したら、メニューを画面内へ*/
+  }
+  .header-top {
+    width: 375px;
+    height: 43.5px;
+  }
+  .top-logo {
+    padding: 6px;
+  }
+  .title {
+    margin-top: 43.5px;
+    height: 64px;
+  }
+  .img-title {
+    display: block;
+  }
+  .main-title {
+    padding: 40px 0;
+    background-size: cover;
+  }
+  .main-title h1 {
+    font-size: 28px;
+  }
+  .responsive {
+    display: block;
+  }
+  .nayami {
+    padding: 40px 10px;
+  }
+  .nayami h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+  .nayami li {
+    padding-left: 48px;
+    font-size: 18px;
+  }
+  .icon-img2 {
+    position: absolute;
+    top: 210px;
+    right: 310px;
+  }
+  .icon-img1 {
+    position: absolute;
+    top: 140px;
+    right: 310px;
+  }
+  .app h2 {
+    padding: 30px 0;
+    font-size: 26px;
+  }
+  .app h3 {
+    font-size: 24px;
+    margin: 40px 0 20px;
+  }
+  .function {
+    padding: 40px 15px 10px;
+  }
+  .function h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .function1 p {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .function img {
+    width: 200px;
+  }
+  .contact a {
+    font-size: 18px;
+    padding: 10px 50px 15px;
+  }
+  .contact1 span {
+    font-size: 26px;
+  }
+  .up {
+    padding-bottom: 40px;
+  }
+  .up h2 {
+    padding: 30px 0;
+    font-size: 26px;
+  }
+  .up h3 {
+    font-size: 26px;
+    margin: 40px 0 20px;
+  }
+  .up-img {
+    padding: 0 33px;
+  }
+  .img-right {
+    margin-right: 0;
+  }
+  .up-img p {
+    font-size: 16px;
+    width: 280px;
+  }
+  .proposal {
+    padding: 40px 0;
+    background-size: cover;
+  }
+  .proposal h2 {
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  .proposal ul {
+    margin: 0 0 0 75px;
+  }
+  .proposal li {
+    font-size: 20px;
+  }
+  .icon-img3 {
+    position: absolute;
+    top: 230px;
+    left: 40px;
+  }
+  .icon-img4 {
+    position: absolute;
+    top: 275px;
+    left: 40px;
+  }
+  .icon-img5 {
+    position: absolute;
+    top: 350px;
+    left: 40px;
+  }
+  .footer-left img {
+    width: 196px;
+  }
+  footer {
+    padding: 33px;
+  }
+  .footer-top {
+    padding: 0px;
+  }
+  .name {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 22px;
+  }
+  .address {
+    padding-bottom: 25px;
+    font-size: 12px;
+    text-align: left;
+    color: #d4d7d8;
+    padding-left: 15px;
+  }
+  .pagetop {
+    width: 66px;
+  }
+}
